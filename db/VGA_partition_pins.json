@@ -1,0 +1,177 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "digitoct[0]",
+					"strict" : false
+				},
+				{
+					"name" : "digitoct[1]",
+					"strict" : false
+				},
+				{
+					"name" : "digitoct[2]",
+					"strict" : false
+				},
+				{
+					"name" : "digitoct[3]",
+					"strict" : false
+				},
+				{
+					"name" : "digitoct[4]",
+					"strict" : false
+				},
+				{
+					"name" : "digitoct[5]",
+					"strict" : false
+				},
+				{
+					"name" : "digitoct[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_HS",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_VS",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cheatc[5]",
+					"strict" : false
+				},
+				{
+					"name" : "cheatc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cheatc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cheatc[4]",
+					"strict" : false
+				},
+				{
+					"name" : "cheatc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cheatc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "btreseta",
+					"strict" : false
+				},
+				{
+					"name" : "buttonjp",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
