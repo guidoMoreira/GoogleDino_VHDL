@@ -1,0 +1,125 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup '\use_clk_60hz:clk_60hz_future'
+Slack : -9.731
+TNS   : -640.032
+
+Type  : Slow 1200mV 85C Model Setup 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.624
+TNS   : -0.624
+
+Type  : Slow 1200mV 85C Model Hold 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.212
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold '\use_clk_60hz:clk_60hz_future'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery '\use_clk_60hz:clk_60hz_future'
+Slack : -1.360
+TNS   : -72.857
+
+Type  : Slow 1200mV 85C Model Removal '\use_clk_60hz:clk_60hz_future'
+Slack : 0.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'btreseta'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width '\use_clk_60hz:clk_60hz_future'
+Slack : -1.403
+TNS   : -110.837
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : 9.871
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.585
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup '\use_clk_60hz:clk_60hz_future'
+Slack : -8.963
+TNS   : -590.174
+
+Type  : Slow 1200mV 0C Model Setup 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.324
+TNS   : -0.324
+
+Type  : Slow 1200mV 0C Model Hold 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.106
+TNS   : -0.106
+
+Type  : Slow 1200mV 0C Model Hold '\use_clk_60hz:clk_60hz_future'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery '\use_clk_60hz:clk_60hz_future'
+Slack : -1.311
+TNS   : -71.451
+
+Type  : Slow 1200mV 0C Model Removal '\use_clk_60hz:clk_60hz_future'
+Slack : 0.939
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'btreseta'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width '\use_clk_60hz:clk_60hz_future'
+Slack : -1.403
+TNS   : -110.837
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : 9.893
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.574
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup '\use_clk_60hz:clk_60hz_future'
+Slack : -3.630
+TNS   : -232.197
+
+Type  : Fast 1200mV 0C Model Setup 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.229
+TNS   : -0.229
+
+Type  : Fast 1200mV 0C Model Hold 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.017
+TNS   : -0.017
+
+Type  : Fast 1200mV 0C Model Hold '\use_clk_60hz:clk_60hz_future'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery '\use_clk_60hz:clk_60hz_future'
+Slack : -0.078
+TNS   : -2.080
+
+Type  : Fast 1200mV 0C Model Removal '\use_clk_60hz:clk_60hz_future'
+Slack : 0.457
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'btreseta'
+Slack : -3.000
+TNS   : -3.006
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width '\use_clk_60hz:clk_60hz_future'
+Slack : -1.000
+TNS   : -79.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : 9.666
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'U1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.659
+TNS   : 0.000
+
+------------------------------------------------------------

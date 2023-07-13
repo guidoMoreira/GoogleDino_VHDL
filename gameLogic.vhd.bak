@@ -1,0 +1,35 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+-- For vgaText library
+use work.commonPak.all;
+-- Variaveis
+use work.Corpo.all;
+
+entity game_logic_and_rgb_gen is
+    generic(
+        --crappy sreen resolution for vga
+        screen_width        : integer := 1600;  
+        screen_height       : integer := 900;
+        food_width          : integer := 20;
+        head_width          : integer := 20;
+        snake_begin_x       : integer := 300;
+        snake_begin_y       : integer := 450;
+        snake_length_begin  : integer := 1;
+        snake_length_max    : integer := 20;
+        food_begin_x        : integer := 800;
+        food_begin_y        : integer := 500);
+    port(
+        --game logic part
+        clk_60hz            : in  std_logic;
+        direction           : in  std_logic_vector(1 downto 0);
+        stop                : in  std_logic;
+        reset               : in  std_logic;
+        --rgb generation part
+        clk_108mhz          : in  std_logic;
+        en                  : in  std_logic;
+        row, col            : in  std_logic_vector(15 downto 0);
+        debug_led           : out std_logic_vector(23 downto 0);
+        rout, gout, bout    : out std_logic_vector(3 downto 0));
+end entity;

@@ -1,0 +1,36 @@
+libary IEEE;
+use IEEE.STd_LOGIC_1164.all
+use IEEE.STd_LOGIC_UNSIGNED.all
+
+entity vga is
+	port (
+		CLK : in STd_logic;
+		RST: in std_logic;
+		hsync: out std_logic;
+		vsync: out std_logic;
+		rgb: out std_logic_vector(2 downto 0));
+end VGA;
+
+architecture alo of VGA is
+
+	signal clk50: std_logic:= '0';
+
+	constant HD : integer := 639; -- 639 Horizontal Display(640)
+	constant HFP : integer := 639;-- 16 Right border (front porch)
+	constant HSP : integer := 96; -- 96 Sync pulse (retrace)
+	constant HBP : integer := 48; -- 48 left boarder (back porch)
+	
+	constant VD : integer := 479; --479 Vertical display (480)
+	constant VFP : integer := 10; -- 10 right border (front porch)
+	constant VSP : integer := 2; -- 2 Sync pulse (retrace)
+	constant VBP : integer := 33; -- 33 left boarder (back porch)
+begin
+
+
+clk_div:process(CLK)
+begin
+	if(CLK'event and CLK = '1') then
+		clk50 <= not clk50;
+		
+		
+end alo;
